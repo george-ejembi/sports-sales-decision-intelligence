@@ -1,0 +1,40 @@
+sports-sales-decision-intelligence/
+│
+├── README.md
+├── .gitignore
+│
+├── data/
+│ ├── raw/
+│ └── processed/
+│
+├── sql/
+│ ├── 01_data_profiling.sql
+│ ├── 02_data_quality_checks.sql
+│ ├── 03_data_cleaning.sql
+│ ├── 04_exploratory_analysis.sql
+│ └── 05_business_analysis.sql
+│
+├── powerbi/
+│ ├── Sports_Sales_Decision_Intelligence.pbix
+│ ├── dax/
+│ │ └── dax_measures.md
+│ └── documentation/
+│ ├── calculated_columns.md
+│ ├── data_model.md
+│ └── dashboard_design.md
+│
+├── analysis/
+│ ├── business_questions.md
+│ ├── insights.md
+│ └── recommendations.md
+│
+├── docs/
+│ ├── business_problem.md
+│ ├── methodology.md
+│ ├── data_dictionary.md
+│ └── architecture.md
+│
+└── screenshots/
+    ├── dashboard_overview.png
+    ├── product_intelligence.png
+    └── sales_intelligence.png
